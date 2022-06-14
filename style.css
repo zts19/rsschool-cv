@@ -9,7 +9,8 @@ html {
 body { 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
+    min-height: 100vh;
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -39,6 +40,71 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
+
+.main-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section { 
+    width: 50%;  
+    
+}
+
+.myphoto {
+    width: 250px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 25%;
+    padding-bottom: 20px;
+    
+}
+
+.contacts-list {
+    list-style: none;
+    padding-left: 0;
+    line-height: 30px;
+}
+
+.text {
+    line-height: 30px;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: rgb(132, 132, 173);
+}
+
+.image {
+    width: 100px;
+}
+
+.link {
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(54, 6, 6);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
 
 
 
