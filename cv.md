@@ -14,3 +14,18 @@ My goal is to be a front-end developer. At the moment I have no work experience,
 * JavaScript
 * Git/GitHub
 * Webpack
+
+## Code example
+```
+function factorial(n) {
+  return (n != 1) ? n * factorial(n - 1) : 1;
+}
+```
+
+## Education
+* Brest State Technical University - Industrial electronic engineer (2019-2023)
+* Front-end course for beginners from WayUp
+* Rolling Scopes School - JS/FE-PreSchool (2022Q3)
+
+## English level
+A2 (Pre-Intermediate)
